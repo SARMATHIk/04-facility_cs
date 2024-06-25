@@ -1,0 +1,9 @@
+.heading {
+  background-color: blanchedalmond;
+  display: grid;
+}
+.facilityBody {
+  /* background-color: blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
