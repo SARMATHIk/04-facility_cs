@@ -1,6 +1,7 @@
 .heading {
-  background-color: blanchedalmond;
+  background-color: rgb(222, 217, 208);
   display: grid;
+  grid-template-columns: 1fr;
 }
 .facilityBody {
   /* background-color: blue; */
