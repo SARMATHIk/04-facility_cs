@@ -2,24 +2,73 @@
 /* for Responsive Target the ROW Code (display:grid) */
 /* Small devices (landscape phones, upto 576px and below) */
 @media (width <=576px) {
+  .heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Merienda", cursive;
+    font-size: 35px;
+  }
+  .heading h2 {
+    padding-bottom: 1em;
+  }
   .facilityBody {
     /* background-color: blue; */
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    gap: 1em;
+    line-height: 2;
     grid-template-columns: 1fr;
   }
 }
 /* Medium devices (tablets, upto 768px and above) */
 @media (width >=577px) and (width <=768px) {
+  .heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Merienda", cursive;
+    font-size: 35px;
+  }
+  .heading h2 {
+    padding-bottom: 1em;
+  }
   .facilityBody {
     /* background-color: blue; */
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    gap: 1em;
+    line-height: 2;
     grid-template-columns: 1fr 1fr;
   }
 }
 /* Large devices (Laptops, upto 992px and above) */
 @media (width >=769px) and (width <=992px) {
+  .heading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Merienda", cursive;
+    font-size: 35px;
+  }
+  .heading h2 {
+    padding-bottom: 1em;
+  }
   .facilityBody {
+    /* background-color: blue; */
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    gap: 1em;
+    line-height: 2;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -27,9 +76,27 @@
 /* X-Large devices (large desktops, upto 1200px and above) */
 @media (width >=993px) and (width <=1200px) {
   .facilityBody {
-    /* background-color: blue; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .heading {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      font-family: "Merienda", cursive;
+      font-size: 35px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .heading h2 {
+      padding-bottom: 1em;
+    }
+    .facilityBody {
+      /* background-color: blue; */
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      font-family: "Nunito", sans-serif;
+      text-align: center;
+      gap: 1em;
+      line-height: 2;
+    }
   }
 }
 

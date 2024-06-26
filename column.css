@@ -1,34 +1,39 @@
 .varieties {
-  background-color: blueviolet;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .beans {
-  background-color: rgb(34, 243, 201);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .breakFast {
-  background-color: rgb(224, 13, 175);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .readyToGo {
-  background-color: rgb(20, 224, 13);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.varietiesCardHeader img {
+  height: 110px;
+}
+.varietiesCardBody p {
+  font-size: 15px;
 }
 .varietiesCardBody {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.varietiesCardBody h3 {
+  font-size: 20px;
 }
